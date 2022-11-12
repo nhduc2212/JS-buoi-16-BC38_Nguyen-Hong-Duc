@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <section class="ex1">
+    <header><h1>Find n in the this equality : 1+2+3+4+5+...+n>10000</h1></header>
+    <div id="ex1-input" class="ex1-input" style="display: none">
+        <input type="number" name="ex1-input" id="ex1-input-number">
+    </div>
+    <div class="result-container" >
+        <p id="ex1-result"></p>
+    </div>
+</section>
+
+<section class="ex2">
+    <header><h1>Type in x and n, calculate sum of x + x^2 + x^3 +... x^n</h1></header>
+    <div id="ex2-input" class="ex2-input">
+        <input type="number" name="ex2-input" id="ex2-input-number-x" placeholder="Nhập số x">
+        <input type="number" name="ex2-input" id="ex2-input-number-n" placeholder="Nhập số n">
+    </div>
+
+    <div class="button-container">
+    <button onclick="ex2Plus1()">Method 1 - using loop</button>
+    <button onclick="ex2Plus2()">Method 2 - using common formula</button>
+</div>
+    <div class="result-container ex2-result-container" >
+        <p id="ex2-result"></p>
+    </div>
+</section>
+
+<section class="ex3">
+    <header><h1>Type in n, calculate the factorial of n</h1></header>
+    <div id="ex3-input" class="ex3-input">
+        <input type="number" name="ex3-input" id="ex3-input-number-n" placeholder="Nhập số n">
+    </div>
+
+    <div class="button-container">
+    <button onclick="ex3()">calculate</button>
+</div>
+    <div class="result-container ex3-result-container" >
+        <p id="ex3-result"></p>
+    </div>
+</section>
+<section class="ex4">
+    <header><h1>Insert 10 new divs</h1></header>
+    <div class="button-container">
+    <button onclick="ex4()">click here</button>
+</div>
+    <div class="result-container ex4-result-container" >
+        <p id="ex4-result"></p>
+    </div>
+</section>
+    <script src="./main.js"></script>
+</body>
+</html>

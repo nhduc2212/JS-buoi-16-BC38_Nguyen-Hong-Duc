@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+}
+
+input{
+    width:70%;
+    margin: 10px auto;
+    display: block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    height: 30px;
+    border: 1px solid #aaa;
+}
+
+.result-container{
+    background-color: rgb(205, 234, 243);
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.ex2-result-container{
+    background-color: rgb(235, 213, 213);
+}
+
+section{
+    width: 70%;
+    margin: 10px auto;
+    background-color: rgb(247, 240, 240);
+    box-shadow: 5px 2px #eee;
+}
+
+.button-container{
+    width: fit-content;
+    margin: 5px auto;
+}
+
+.ex4-result-container{
+    border: 10px solid rgb(87, 87, 87);
+    padding: 0;
+}
+
